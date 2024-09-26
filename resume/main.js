@@ -47,11 +47,7 @@ submit.addEventListener('click',()=>
     s7.style.display="none"
     s8.style.display="block"
 })
-dwnld.addEventListener('click',()=>
-{
-    s8.style.display="none"
-    a.style.display="flex"
-})
+
 
 prev3.addEventListener('click',function()
 {
@@ -117,4 +113,12 @@ nxt.addEventListener('click',function()
     b.style.display="none";
     c.style.display="block"
 })
+
+
+dwnld.addEventListener('click',()=>
+    {
+        
+        s8.style.display="none"
+        a.style.display="flex"
+    })
 

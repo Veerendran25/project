@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Source+Sans+Pro:400,400i" rel="stylesheet">
+    <body>
+        <div id="container">
+        <div class="page" id="page">
+            <div class="section row">
+                <h1 class="col"><span style="font-weight:700">{{%firstName%}}</span> {{%lastName%}}</h1>
+                <div class="contact-info col-right">
+                    <div>{{%phone%}}</div>
+                    <div>{{%location%}}</div>
+                    <div><a>{{%m%}}</a></div>
+                    <div><a>{{%lIn%}}</a></div>
+                    <div><a>{{%gb%}}</a></div>
+                </div>
+            </div>
+            <!--<div class="section row">
+                <h2 class="col">Interests</h2>
+                <div class="section-text col-right"><span class="key">Intelligent systems</span> <span class="key">Machine learning</span> <span class="key">Data visualization</span> <span class="key">Computer vision &amp; graphics</span> <span class="key">Information networks</span> <span class="key">User experience / interaction design</span> </div>
+            </div>-->
+            <div class="section row">
+                <h2 class="col">About Me</h2>
+                <div class="section-text col-right">
+                    {{%content%}}
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Education</h2>
+                <div class="section-text col-right">
+                    <h3><span class="emph">{{%Specialization%}}</span></h3>
+                    <div>
+                        {{%college%}}
+                    </div>
+                    <div class="row">
+                        <div class="col ">
+                            {{%cgpa%}}
+                        </div>
+                        <div class="col-right "><span>
+                            {{%clgStart%}}
+                        </span> - <span>
+                            {{%clgEnd%}}
+                        </span></div>
+                    </div>
+                </div>
+                <div class="section-text col-right">
+                    <h3><span class="emph">
+                        HSC
+                    </span></h3>
+                    <div>
+                        {{%schoolHSC%}}
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            {{%twelve%}}
+                        </div>
+                        <div class="col-right 	">    {{%twStart%}}
+                        </span> - <span>
+                            {{%twEnd%}}
+                        </span></div>
+                    </div>
+                </div>
+                <div class="section-text col-right">
+                    <h3><span class="emph">
+                        SSLC
+                    </span></h3>
+                    <div>
+                        {{%schoolSSLC%}}
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            {{%ten%}}
+                        </div>
+                        <div class="col-right 	">    {{%tenStart%}}
+                        </span> - <span>
+                            {{%tenEnd%}}
+                        </span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Skills</h2>
+                <div class="section-text col-right row">
+                    <ul class="skills" style="width:45%">
+                        <li>{{%skill1%}}</li>
+                        <li>{{%skill2%}}</li>
+                        <li>{{%skill3%}}</li>
+                    </ul>
+                    <ul class="skills" style="width:45%">
+                        <li>{{%skill4%}}</li>
+                        <li>{{%skill5%}}</li>
+                        <li>{{%skill6%}}</li>                        
+                    </ul>
+                </div>
+            </div>
+            <div class="section row">
+                <h2 class="col">Projects</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3>
+                                {{%projectTitle1%}}
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row subsection">
+                        <div class="emph col">
+                            {{%TechStack1%}}
+                        </div>
+                    </div>
+                    <ul class="desc">
+                        <li>
+                            <div>
+                                {{%desc1%}}
+                            </div>
+                        </li>
+                    </ul>
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            {{%projectTitle2%}}
+                        </h3>
+                    </div>
+                    </div>
+                <div class="row subsection">
+                    <div class="emph col">
+                        {{%TechStack2%}}
+                    </div>
+                </div>
+                <ul class="desc">
+                    <li>
+                        <div>
+                            {{%desc2%}}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                
+            </div>
+            <div class="section row " id="check">
+                <h2 class="col">Experience</h2>
+                <div class="section-text col-right">
+                    <div class="row">
+                        <div class="col">
+                            <h3 id="t1">
+                                {{%Title1%}}
+                            </h3>
+                        </div>
+                        <div class="col-right 	" id="dr">    {{%duration%}}
+                        </span> </div>
+                    </div>
+                    
+                    <ul class="desc">
+                        <li>
+                            <div id="d">
+                                {{%eDesc1%}}
+                            </div>
+                        </li>
+                    </ul>
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            {{%Title2%}}
+                        </h3>
+                    </div>
+                    <div class="col-right 	">    {{%duration1%}}
+                    </span></div>
+                    </div>
+                <ul class="desc">
+                    <li>
+                        <div>
+                            {{%eDesc2%}}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+                
+            </div>
+            <div class="section row">
+                <h2 class="col">Languages</h2>
+                <div class="section-text col-right row">
+                    <ul class="skills" style="width:45%">
+                        <li>{{%l1%}}</li>
+                        <li>{{%l2%}}</li>
+                        <li>{{%l3%}}</li>
+                    </ul>
+                    <ul class="skills" style="width:45%">
+                        <li>{{%l4%}}</li>
+                        <li>{{%l5%}}</li>
+                        <li>{{%l6%}}</li>                        
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+            
+        </div>
+        <button id="print" style="background-color: green;color: white;border-radius: 10px;padding: 10px;position: fixed;top: 0;right: 0;margin-right: 30px;border: none;cursor: pointer;margin-top: 20px;width: 70px;">Print</button>
+        <a href="index.html"><button id="back" style="background-color: rgb(207, 42, 27);color: white;border-radius: 10px;padding: 10px;position: fixed;top: 0;right: 0;margin-right: 30px;border: none;cursor: pointer;margin-top: 100px;width: 70px;">Back</button></a>
+        <script src="check.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            const container=document.getElementById('container')
+            const pr=document.getElementById('print')
+            pr.addEventListener('click', () => {
+                const opt = {
+                    margin: 1,
+                    filename: 'resume.pdf',
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 0.9, useCORS: true },
+                    jsPDF: { unit: 'pt', format: 'a4', orientation: 'portrait' },
+                    pagebreak: { mode: ['avoid-all'] }
+                    }
+                html2pdf().from(container).set(opt).save()})
+
+        </script>
+    </body>
+</html>
