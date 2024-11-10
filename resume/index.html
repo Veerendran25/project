@@ -42,7 +42,7 @@
                         name="firstName"
                         required
                         />
-                        <label for="firstName">First-Name</label>
+                        <label for="firstName">First-Name*</label>
                     </div>
                     <div class="form-floating mb-4">
                         <input
@@ -53,7 +53,7 @@
                         name="lastName"
                         required
                         />
-                        <label for="lastName">Last-Name</label>
+                        <label for="lastName">Last-Name*</label>
                     </div>
                     <div class="form-floating mb-4">
                         <input
@@ -63,7 +63,7 @@
                         name="phone"
                         placeholder="Phone-number"
                         />
-                        <label for="phone">Phone Number</label>
+                        <label for="phone">Phone Number*</label>
                     </div>
                     <div class="form-floating mb-4">
                         <input
@@ -72,6 +72,7 @@
                         id="linked"
                         name="linked"
                         placeholder="LinkedIn"
+                        required
                         />
                         <label for="linked">LinkedIn</label>
                     </div>
@@ -82,20 +83,21 @@
                         id="Mail"
                         name="Mail"
                         placeholder="Mail"
+                        required
                         />
-                        <label for="Mail">Mail</label>
+                        <label for="Mail">Mail*</label>
                     </div>
                     <div class="form-floating mb-4">
                         <input type="text" name="git" class="form-control" id="git" placeholder="Github" />
                         <label for="git">Github</label>
                     </div>
                     <div class="form-floating mb-4">
-                        <input type="text" class="form-control" name="loc" id="loc" placeholder="Location" />
-                        <label for="loc">Location</label>
+                        <input type="text" class="form-control" name="loc" id="loc" placeholder="Location" required />
+                        <label for="loc">Location*</label>
                     </div>
                     <div class="form-floating mb-4">
-                        <input type="text" class="form-control" id="spec" name="spec" placeholder="Specialization" />
-                        <label for="loc">Specialization</label>
+                        <input type="text" class="form-control" id="spec" name="spec" placeholder="Specialization" required />
+                        <label for="loc">Specialization*</label>
                     </div>
                     <button class="btn btn-primary" id="nxt" class="button">Next page</button>
                     </div>
@@ -111,7 +113,7 @@
                                     name="clgName"
                                     required
                                     />
-                                    <label for="clgName">College Name</label>
+                                    <label for="clgName">College Name*</label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input
@@ -122,7 +124,7 @@
                                     placeholder="Year"
                                     required
                                     />
-                                    <label for="syear">Start Year</label>
+                                    <label for="syear">Start Year*</label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input
@@ -133,7 +135,7 @@
                                     placeholder="End Year"
                                     required
                                     />
-                                    <label for="eyear">End Year</label>
+                                    <label for="eyear">End Year*</label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input
@@ -144,7 +146,7 @@
                                     placeholder="12th School-name"
                                     required
                                     />
-                                    <label for="12schlName">12th School Name</label>
+                                    <label for="12schlName">12th School Name*</label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input
@@ -155,7 +157,7 @@
                                     placeholder="Year"
                                     required
                                     />
-                                    <label for="12syear">Start Year</label>
+                                    <label for="12syear">Start Year*</label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input
@@ -166,7 +168,7 @@
                                     placeholder="End Year"
                                     required
                                     />
-                                    <label for="12eyear">End Year</label>
+                                    <label for="12eyear">End Year*</label>
                                 </div>
 
                                 <div class="form-floating mb-4">
@@ -178,7 +180,7 @@
                                     placeholder="10th School-name"
                                     required
                                     />
-                                    <label for="schlName">10th School Name</label>
+                                    <label for="schlName">10th School Name*</label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input
@@ -189,7 +191,7 @@
                                     placeholder="Year"
                                     required
                                     />
-                                    <label for="10syear">Start Year</label>
+                                    <label for="10syear">Start Year*</label>
                                 </div>
                                 <div class="form-floating mb-4">
                                     <input
@@ -200,7 +202,7 @@
                                     placeholder="End Year"
                                     required
                                     />
-                                    <label for="10eyear">End Year</label>
+                                    <label for="10eyear">End Year*</label>
                                 </div>
                                 
                                 <button class="btn btn-primary" id="prev" class="button">prev page</button>
@@ -208,7 +210,7 @@
                                 </div>
                                 </div>
             <div class="slide" id="s2">
-                <h2 style="margin-left: 10px;">About Me</h2>
+                <h2 style="margin-left: 10px;">About Me*</h2>
                 <hr>
                 <div class="form-floating">
                     <textarea class="form-control" name="floatingTextarea" placeholder="Leave a comment here" id="floatingTextarea" required style="height: 300px;width: 100%;margin-bottom: 5px;"></textarea>
@@ -366,7 +368,7 @@
                             placeholder="Language*"
                             required
                             />
-                            <label for="l1">Language*-1</label>
+                            <label for="l1">Language-1*</label>
                         </div>
                         <div class="form-floating mb-4">
                             <input
@@ -377,7 +379,7 @@
                             placeholder="Language*"
                             required
                             />
-                            <label for="l2">Language*-2</label>
+                            <label for="l2">Language-2*</label>
                         </div>
                         <div class="form-floating mb-4">
                             <input
@@ -429,7 +431,7 @@
                 placeholder="CGPA"
                 required
                 />
-                <label for="cgpa">CGPA</label>
+                <label for="cgpa">CGPA*</label>
             </div>
             <div class="form-floating mb-4">
                 <input
@@ -440,7 +442,7 @@
                 placeholder="percentage"
                 required
                 />
-                <label for="12p">12th Percentage (in %)</label>
+                <label for="12p">12th Percentage (in %)*</label>
             </div>
             <div class="form-floating mb-4">
                 <input
@@ -449,16 +451,17 @@
                 id="10p"
                 name="tep"
                 placeholder="percentage"
+                required
                 />
-                <label for="10p">10th Percentage(in %)</label>
+                <label for="10p">10th Percentage(in %)*</label>
             </div>
             </div>
             <button class="btn btn-primary" id="prev6" class="button">prev page</button>
-            <button class="btn btn-primary"  class="button"  id="submit">Submit</button>
+            <button class="btn btn-primary"  class="button"  id="submit" type="submit">Submit</button>
     </div>
     <div class="slide" id="s8">
-        <h4 style="margin-bottom: 50px;">Generated successfully</h4>
-    <button class="btn btn-success" id="dwnld" class="button" type="submit">Download pdf</button>
+        <h4 style="margin-bottom: 50px;">Please fill  the required details</h4>
+    <button class="btn btn-success" id="dwnld" class="button" >Try again</button>
     </form>
     </div>
     </div>

@@ -119,6 +119,6 @@ dwnld.addEventListener('click',()=>
     {
         
         s8.style.display="none"
-        a.style.display="flex"
+        b.style.display="flex"
     })
 
